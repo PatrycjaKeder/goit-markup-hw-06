@@ -884,7 +884,6 @@ section {
   .menu-icon-ham {
       display: none;
   }
-  /* tablet.1. */
   .hero-title {
       background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
@@ -898,7 +897,6 @@ section {
       font-size: 56px;
       max-width: 496px;
   }
-  /* tablet.2. */
   .section-secondary {
       padding: 96px 0;
   }
@@ -917,7 +915,6 @@ section {
       text-align: left;
   }
 
-  /* tablet.3. */
   .team-list {
       flex-wrap: wrap;
       justify-content: center;
@@ -925,7 +922,6 @@ section {
       column-gap: 24px;
       row-gap: 64px;
   }
-  /* tablet.4. */
   .section-fourth {
       padding: 96px 0;
   }
@@ -939,7 +935,6 @@ section {
   .list-fourth-item.transition-list {
       width: calc((100% - 24px) / 2);
   }
-  /* tablet.F. */
   .footer-box {
       flex-direction: row;
       flex-wrap: wrap;
@@ -985,7 +980,6 @@ section {
       line-height: 2;
       opacity: 0.6;
   }
-  /* tablet.modal. */
   .modal {
       width: 408px;
       min-height: 584px;
@@ -1001,14 +995,14 @@ section {
   }
 }
 
-/* ================================DESKTOP================================== */
+/*-------------------Desctop---------------- */
 @media (min-width: 1158px) {
   .container {
       max-width: 1158px;
       padding-left: 15px;
       padding-right: 15px;
   }
-  /* desktop.header */
+
   .logo {
       padding: 0;
       margin-right: 76px;
@@ -1029,7 +1023,6 @@ section {
       line-height: 1.5;
       letter-spacing: 0.02em;
   }
-  /* desktop.1. */
   .hero-title {
       background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
@@ -1039,7 +1032,6 @@ section {
       max-width: 1440px;
       padding: 188px 0;
   }
-  /* desktop.2. */
   .section-secondary {
       padding: 120px 0;
   }
@@ -1068,16 +1060,14 @@ section {
   .paragraph-secondary {
       font-weight: inherit;
   }
-  /* desktop.3. */
   .section-three {
       padding: 120px 0;
   }
-  /* desktop.2-3-4. */
+
   .section-secondary.desktop-h3 {
       font-size: 20px;
       font-weight: 500;
   }
-  /* desktop.4. */
   .list-fourth {
       column-gap: 24px;
       row-gap: 48px;
@@ -1085,7 +1075,7 @@ section {
   .list-fourth-item.transition-list {
       width: calc((100% - 48px) / 3);
   }
-  /* desktop.F. */
+
   .footer-box {
       flex-direction: row;
       flex-wrap: nowrap;
@@ -1116,7 +1106,6 @@ section {
   .input-email {
       opacity: 1;
   }
-  /* desktop.modal */
   .modal {
       width: 408px;
       min-height: 584px;
