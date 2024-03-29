@@ -758,8 +758,8 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  height: 320px;
-  width: 640px;
+  height: 640px;
+  width: 320px;
   z-index: 100;
   background-color: #fff;
   padding-top: 72px;
