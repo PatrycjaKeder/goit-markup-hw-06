@@ -189,7 +189,7 @@ section {
 .section-secondary {
   padding: 96px 0;
 }
-.address.{
+.address{
   display: none;
 }
 .goals-symbols {
@@ -263,8 +263,6 @@ section {
 .team-frame {
   padding: 32px 0px;
   background-color: #ffffff;
-
-
 }
 .section-team{
   color: #2e2f42;
@@ -293,6 +291,7 @@ section {
   color: #434455;
   letter-spacing: 0.02em;
   text-align: center;
+  height: 34px;
 }
 .icons-social-media-item{
   fill: #f4f4fd;
