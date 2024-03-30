@@ -100,7 +100,7 @@ section {
   border-radius: 2px;
 }
 .link{
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -111,7 +111,7 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-current{
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -127,7 +127,7 @@ section {
     color: #404bbf;
 }
 .address {
-  font-style: normal;
+  display:  none;
 }
 .page-contact {
   display: flex;
@@ -149,7 +149,7 @@ section {
   padding: 72px 0;
   background-size: cover;
   margin: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_1.jpg); 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile_people-office_1.jpg); 
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -157,12 +157,12 @@ section {
 }
 .title {
   color: #ffffff;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 496px;
+  max-width: 200px;
   margin: 0 auto 48px auto;
 }
 .cursor {
@@ -189,7 +189,9 @@ section {
 .section-secondary {
   padding: 96px 0;
 }
-
+.address.{
+  display: none;
+}
 .goals-symbols {
   display: none;
 }
@@ -243,7 +245,7 @@ section {
 }
 .section-three {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .team-list {
   display: flex;
@@ -261,6 +263,8 @@ section {
 .team-frame {
   padding: 32px 0px;
   background-color: #ffffff;
+
+
 }
 .section-team{
   color: #2e2f42;
@@ -401,8 +405,9 @@ section {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: inline-block;
+  display: block;
   margin-bottom: 16px;
+  text-align: center;
 }
 .logo-end:hover,
 .logo-end:focus {
@@ -415,6 +420,7 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 72px;
+  display: flex;
 }
 .footer-background {
   background-color: #2e2f42;
@@ -435,6 +441,7 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 .social-media-footer{
   display: flex;
@@ -469,7 +476,7 @@ section {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  display: block;
+  text-align: center;
 }
 .subscribe-form{
   display: flex;
@@ -487,7 +494,7 @@ section {
   padding-left: 16px;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -561,11 +568,7 @@ section {
   padding: 72px 24px 24px 24px;
   position: absolute;
 }
-.backdrop.is-open{
-  visibility: visible;
-  pointer-events: auto;
-  opacity: 1;
-}
+
 .button-close{
   display: flex;
   cursor: pointer;
@@ -760,10 +763,6 @@ section {
 }
 /* --- mobile.menu hamburger --- */
 
-.icon-ham {
-  fill: #2f2f37;
-  cursor: pointer;
-}
 .menu-hamburger {
   position: fixed;
   top: 0;
@@ -785,7 +784,7 @@ section {
 .sm-menu.ham {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 40px;
   margin-top: 48px;
 }
 .left-navi-list.ham {
@@ -823,9 +822,8 @@ section {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.menu-hamburger.is-open-ham {
-  transform: translateX(0);
-}
+
+
 .menu-icon-ham {
   background-color: transparent;
   border: none;
@@ -845,7 +843,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office_2.jpg);
+          url(../images/people-office.jpg);
   }
 }
 /* ----------------------Tablet--------------------------*/
@@ -898,7 +896,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office_1.jpg);
+          url(../images/people-office-tablet_1.jpg);
       max-width: 768px;
       padding: 112px 0;
   }
@@ -1000,7 +998,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office_2.jpg);
+          url(../images/tablet_people-office_2.jpg)
   }
 }
 
@@ -1038,7 +1036,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office_1.jpg);
+          url(../images/people-office.jpg);
       max-width: 1440px;
       padding: 188px 0;
   }
@@ -1127,6 +1125,6 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office_2.jpg);
+          url(../images/people-office-tablet_2.jpg);
   }
 }
