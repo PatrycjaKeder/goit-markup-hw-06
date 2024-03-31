@@ -8,7 +8,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: #ffffff;
-  line-height: 1.5;
 }
 .container {
   max-width: 1158px;
@@ -100,7 +99,6 @@ section {
   border-radius: 2px;
 }
 .link{
-  font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -111,7 +109,6 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-current{
-  font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -127,7 +124,7 @@ section {
     color: #404bbf;
 }
 .address {
-  display:  none;
+  font-style:  normal;
 }
 .page-contact {
   display: flex;
@@ -138,6 +135,7 @@ section {
   text-decoration: none;
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
 }
 .page-contact .link:hover,
 .page-contact .link:focus {
@@ -149,7 +147,7 @@ section {
   padding: 72px 0;
   background-size: cover;
   margin: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile_people-office_1.jpg); 
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_mobile.jpg); 
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
@@ -188,9 +186,6 @@ section {
 }
 .section-secondary {
   padding: 96px 0;
-}
-.address{
-  display: none;
 }
 .goals-symbols {
   display: none;
@@ -242,6 +237,8 @@ section {
 .paragraph-secondary {
   color: #434455;
   letter-spacing: 0.02em;
+  line-height: 1.5;
+  line-height: 24px;
 }
 .section-three {
   background-color: #f4f4fd;
@@ -291,7 +288,7 @@ section {
   color: #434455;
   letter-spacing: 0.02em;
   text-align: center;
-  height: 34px;
+  margin-bottom: 8px;
 }
 .icons-social-media-item{
   fill: #f4f4fd;
@@ -440,7 +437,6 @@ section {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  text-align: center;
 }
 .social-media-footer{
   display: flex;
@@ -475,7 +471,6 @@ section {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  text-align: center;
 }
 .subscribe-form{
   display: flex;
@@ -820,6 +815,7 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 
@@ -842,7 +838,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office.jpg);
+          url(../images/people-office_mobile_2x.jpg);
   }
 }
 /* ----------------------Tablet--------------------------*/
@@ -855,7 +851,7 @@ section {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      justify-content: flex-end;
+      flex-direction: column;
   }
   .left-navi-list {
       display: flex;
@@ -895,7 +891,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-tablet_1.jpg);
+          url(../images/people-office_tablet.jpg);
       max-width: 768px;
       padding: 112px 0;
   }
@@ -992,13 +988,14 @@ section {
   }
 }
 @media (min-width: 768px) and (min-resolution: 192dpi) {
-  .bhero-title {
+  .hero-title {
       background-image: linear-gradient(
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/tablet_people-office_2.jpg)
+          url(../images/people-office_tablet_2x.jpg)
   }
+  
 }
 
 /*-------------------Desctop---------------- */
@@ -1035,7 +1032,7 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office.jpg);
+          url(../images/people-office_desktop.jpg);
       max-width: 1440px;
       padding: 188px 0;
   }
@@ -1124,6 +1121,12 @@ section {
               rgba(46, 47, 66, 0.7),
               rgba(46, 47, 66, 0.7)
           ),
-          url(../images/people-office-tablet_2.jpg);
+          url(../images/people-office-desktop_2x.jpg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    display: none;
   }
 }
